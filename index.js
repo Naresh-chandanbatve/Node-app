@@ -6,6 +6,6 @@ var msg = "hello world";
 const PORT = 3000;
 const app = express();
 app.get('/',(req,res) => {
-    res.send("this is test success || DONE");
+    res.send("this is test success || DONE:");
 });
 app.listen(PORT, () => console.log(`Server Running at port ${PORT}`));

@@ -8,6 +8,9 @@ on:
     branches: [ "dev" ]
   pull_request_target:
     branches: [ "dev" ]
+    
+permissions:
+  pull-requests: write
 
 permissions:
   pull-requests: write
